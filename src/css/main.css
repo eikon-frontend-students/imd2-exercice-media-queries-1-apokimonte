@@ -20,7 +20,7 @@ video {
 .logo {
   width: 100px;
   height: 100px;
-  flex-shrink: 0;
+
   margin-bottom: 20px;
 }
 h2 {
