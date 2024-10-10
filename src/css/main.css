@@ -16,3 +16,104 @@ img,
 video {
   display: block;
 }
+
+.logo {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+}
+h2 {
+  color: #000;
+  text-align: center;
+  font-family: "Hammersmith One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+h3 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.logos {
+  display: flex;
+  width: 320px;
+  padding: 0px 59px;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-content.desktop {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  h2 {
+    text-align: center;
+
+    font-size: 28px;
+
+    font-weight: 400;
+  }
+
+  .logos {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (min-width: 992px) {
+  h2.description-title {
+    font-size: 36px;
+    text-align: start;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  p {
+    font-size: 20px;
+    text-align: start;
+  }
+  .logos {
+    display: flex;
+    width: 952px;
+    align-items: center;
+    gap: 30px;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  .download-content.desktop {
+    display: block;
+    text-align: center;
+  }
+
+  .download-content.mobile {
+    display: none;
+  }
+}
